@@ -1,0 +1,65 @@
+.about-me {
+    color: black;
+    border-radius: 8px;
+	text-align: center;
+	padding: 20px;
+}
+.about-me h2 {
+    color: black;
+    font-size: 26px;
+}
+.profile-card {
+	width: fit-content;
+	text-align: justify;
+	border-radius: 10px;
+	transition: 0.3s;
+	background-color: #ffffff;
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  	overflow: hidden;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+.profile-card:hover {
+	box-shadow: 10px 10px 5px 0 #f0e3ca;
+}
+.img-thumb {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	max-height: 600px;
+}
+.img-thumb img {
+	width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+	padding: 20px;
+}
+.bio-profile {
+	padding: 1.4em 2em;
+	font-size: small;
+	text-align: center;
+}
+.bio-profile p {
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+}
+.bio-profile h3 {
+	text-transform: uppercase;
+	color: #008000;
+	font-size: 22px;
+}
+.bio-profile a {
+	padding: 8px 15px;
+    border-radius: 5px;
+    margin-top: 1em;
+	text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: 600;
+	background-color: #008000;
+	color: #ffffff;
+}
